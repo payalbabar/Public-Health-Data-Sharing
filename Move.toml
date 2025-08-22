@@ -1,0 +1,16 @@
+[package]
+name = "Public-Health-Data-Sharing"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x714f365b3170f3054e245364b9140b7376f27f6be163c2aa3a8d9f771c0b3e4a"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
